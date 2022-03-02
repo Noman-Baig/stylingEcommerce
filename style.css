@@ -1,0 +1,255 @@
+.bgimg {
+background-image: url(../images/bgimg2.png);
+background-size: cover;
+width: 100%;
+height: 800px;
+background-attachment: fixed; 
+
+}
+
+
+.navbar-expand-lg {
+
+ 
+}
+
+.navbar-brand{
+color: #ffe8e8;
+font-weight: bolder;
+transition: 0.7s all ease;
+}
+.navbar-brand:hover{
+color: #08ffea;
+margin-left: 3px;
+}
+
+.navbar .nav-link {
+    color: white;
+    transition: 1s all ease;
+}
+.navbar .nav-link:hover{
+    color:#08ffea;
+    transform: rotate(360deg);
+}
+.navbar {
+border-radius: 0px 0px 20px 20px ;
+background-color: #10aae7af;
+
+}
+
+.dropdown-menu .dropdown-item {
+ color:#00b7ffa8 ;
+text-align: center;
+transition: 0.3s all ease;
+}
+.dropdown-menu .dropdown-item:hover{
+    color: black;
+background-color: rgba(0, 0, 0, 0.021);
+text-align: center;
+}
+
+.form-inline .btn {
+    color: white;
+    border-radius: 20px;
+    border-color:#08ffea ;
+}
+
+.form-inline .form-control {
+    border-radius: 20px;
+}
+
+
+.form-inline .btn:hover {
+    color: white;
+   background-color: #08ffea79;
+}
+
+.navbar-toggler-icon img {
+
+height: 25px;
+margin-top: 5px;
+
+
+
+}
+.nav-button-search {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.container {
+    margin-top: 150px;
+}
+.container .text-center h1 {
+    color: #ffe8e8c7;
+font-family:Bebas Neue;
+font-size: 100px;
+font-weight: bold;
+transition: 0.3s all ease;
+}
+.container .text-center h1:hover{
+    color: #ffe8e8;
+font-family:Bebas Neue;
+font-size: 102px;
+font-weight: bold;
+
+}
+
+.container .text-center h6 {
+    color: #ffe8e8c7;
+font-family: Shalimar;
+font-size: 50px;
+transition: 0.3s all ease;
+
+}
+
+.container .text-center h6:hover{
+    color: #ffe8e8;
+
+font-size: 52px;
+
+}
+
+.text-center .btn-outline-success {
+background-color:#10aae7af;
+color: #ffe8e8;
+font-size: 30px;
+font-weight: 400;
+font-family: Poppins;
+padding: 0 20px 0px 20px;
+    border-radius: 20px;
+    border-color:#08ffea ;
+
+}
+
+.text-center .btn-outline-success:hover{
+color: white;  
+background-color: #08ffea79;
+
+}
+
+.text-center .login-name {
+    background-color:transparent;
+    color:#ffe8e8;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Poppins;
+    padding: 0 20px 0px 20px;
+        border-radius: 20px;
+        border-color:#08ffea ;
+    
+    }
+    .text-center .login-name:hover{
+        color: #ffe8e8;  
+background-color: #08ffea79;
+    }
+
+    /* ############################ */
+
+@media only screen and (max-width : 991px) {
+    
+    .bgimg {
+        background-image: url(../images/bgimg3.png);
+    }
+    
+    .navbar {
+        border-radius: 0px 0px 30px 30px ;
+        
+    }
+    .navbar .nav-link {
+        text-align: center;
+    }
+
+    .container .text-center h1 {
+       
+        color: #ffe8e8;
+    font-family:Bebas Neue;
+    font-size: 70px;
+    font-weight: 400;
+    
+}
+
+.container .text-center h1:hover{
+        color: #ffe8e8c7;
+        font-family:Bebas Neue;
+    font-size: 75px;
+    font-weight: 400;
+}
+.container .text-center h6 {
+    color: #ffe8e8c7;
+    font-family:Shalimar;
+    font-weight: bolder;
+    font-size: 20px;
+}
+    .container .text-center h6:hover{
+        color: #ffe8e8;
+        font-family:Shalimar;
+        font-weight: bolder;
+        font-size: 30px;
+    }
+
+    .form-inline{
+        justify-content: center;
+    }
+.form-inline button {
+display: flex;
+/* margin-left: 120px; */
+margin-left: 50%;
+margin-right: 50%;
+}
+
+
+
+}
+
+
+
+/* #######  OUT ##### */
+
+
+
+
+
+.card .card-image-top {
+    /* align-content: center;
+    justify-content: center; */
+    align-self: center;
+}
+
+.card-group {
+    /* margin: 20px; */
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.card {
+    border: none;
+    margin: 10px;
+    padding: 2px;
+/* height: 450px;
+width: 200px; */
+
+    
+    
+}
+
+.card-body{
+    padding: 2px;
+}
+/* .card-body h1 {
+font-size: 20px;
+}
+.card-body P {
+font-size: 12px;
+} */
+
+
+
+.card img {
+border-radius: 20px;
+justify-content:center;
+align-items: center;
+height: 180px;
+width: 180px;
+}
